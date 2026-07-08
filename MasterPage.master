@@ -1,0 +1,275 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Life Nasha Mukti Kendra</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION SETTINGS STYLES -->
+    <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION LAYERS STYLES -->
+    <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION NAVIGATION STYLES -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--Color Switcher Mockup-->
+    <link href="css/color-switcher-design.css" rel="stylesheet">
+
+    <!--Color Themes-->
+    <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11554836292"></script> <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-11554836292'); </script>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!-- Main Header-->
+        <header class="main-header">
+
+            <!-- Header Top -->
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="clearfix">
+
+                        <!--Top Left-->
+                        <div class="top-left">
+                            <ul class="links clearfix">
+                                <li><a href="tel:9598211004"><span class="icon flaticon-technology-1"></span>9598211004</a></li>
+                                <li><a href="https://g.co/kgs/cmLQRwY"><span class="icon flaticon-envelope-1"></span>Saket Nagar, Near Bagaha Baba Mandir, Mahuesugharpur, Azad Nagar, Gorakhpur 273001</a></li>
+                            </ul>
+                        </div>
+
+                        <!--Top Right-->
+                        <div class="top-right clearfix">
+                            <!--social-icon-->
+                            <div class="social-icon">
+                                <ul class="clearfix">
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Header Top End -->
+
+            <!-- Main Box -->
+            <div class="main-box">
+                <div class="auto-container">
+                    <div class="outer-container clearfix">
+                        <!--Logo Box-->
+                        <div class="logo-box">
+                            <div class="logo">
+                                <a id="logo_link" runat="server">
+                                    <img src="images/logo.jpg" style="width: 80px; height: auto;" alt=""></a>
+                            </div>
+                        </div>
+
+                        <!--Btn Outer-->
+                        <div class="btn-outer">
+                            <a href="tel:9598211004" class="theme-btn btn-style-one">Call Now</a>
+                        </div>
+
+                        <!--Nav Outer-->
+                        <div class="nav-outer clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a id="home_link" runat="server">Home</a></li>
+                                        <li><a id="about_link" runat="server">About Us</a></li>
+                                        <li><a id="service_link" runat="server">Service</a></li>
+                                        <li><a id="contact_link" runat="server">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+
+                        </div>
+                        <!--Nav Outer End-->
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!--End Main Header -->
+
+
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+    </form>
+
+
+    <!--Main Footer-->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+
+                    <!--big column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-7 col-sm-6 col-xs-12">
+                                <div class="footer-widget logo-widget">
+                                    <div class="logo">
+                                        <a id="logo_link2" runat="server">
+                                            <img src="images/logo.jpg" alt="" style="width: 80px; height: auto; border-radius: 10px;" /></a>
+                                    </div>
+                                    <div class="text">At Life Nasha Mukti Kendra, we believe that no one should face addiction alone. Let us walk with you on this transformative journey and help you discover a healthier, happier life free from addiction.</div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-5 col-sm-6 col-xs-12">
+                                <div class="footer-widget links-widget">
+                                    <h2>Quick Links</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a id="home_link2" runat="server">Home</a></li>
+                                            <li><a id="about_link2" runat="server">About us</a></li>
+                                            <li><a id="service_link2" runat="server">Service</a></li>
+                                            <li><a id="contact_link2" runat="server">Contact Us</a></li>
+                                            <li><a id="privacy_link" runat="server">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--big column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget links-widget">
+                                    <h2>Service</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="#">Yoga & Meditation</a></li>
+                                            <li><a href="#">Nutritious & Meals</a></li>
+                                            <li><a href="#">Detoxification Programs</a></li>
+                                            <li><a href="#">Behavioral Therapies</a></li>
+                                            <li><a href="#">Life Skills Training</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget info-widget">
+                                    <h2>Get in Touch</h2>
+                                    <div class="widget-content">
+                                        <div class="number">9598211004, 9598211003</div>
+                                        <div class="text">
+                                            lifenashamuktikendra@gmail.com
+                                         <br>
+                                            Saket Nagar, Gorakhpur, India, 273001
+                                        </div>
+                                        <ul class="social-icon-one">
+                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container clearfix">
+                <div class="pull-left">
+                    <div class="copyright">Copyright &copy; 2026. All rights reserved. </div>
+                </div>
+                <div class="pull-right">
+                    <div class="created">Designed by: Digital Bull</div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <!--Revolution Slider-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/main-slider-script.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--Color Switcher-->
+    <script src="js/color-settings.js"></script>
+
+</body>
+</html>

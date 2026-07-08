@@ -1,0 +1,46 @@
+﻿.col-xs-5-cols,
+.col-sm-5-cols,
+.col-md-5-cols,
+.col-lg-5-cols {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5-cols {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
+#toast-container > div {
+    width: auto !important;
+    min-width: 400px !important;
+}
